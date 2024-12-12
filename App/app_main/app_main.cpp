@@ -1,7 +1,12 @@
 #include "FreeRTOS.h"
+#include "cmsis_os2.h"
 #include "main.h"
 
-void StartMainTask(void *argument)
+#include <exception>
+
+#include "app_main.hpp"
+
+extern "C" void StartMainTask(void *argument)
 {
   for(;;)
   {

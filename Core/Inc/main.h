@@ -79,6 +79,8 @@ void Error_Handler(void);
 #define PD14_TIM43_SERVO_GPIO_Port GPIOD
 #define PD15_TIM44_SERVO_Pin GPIO_PIN_15
 #define PD15_TIM44_SERVO_GPIO_Port GPIOD
+#define PA15_PS2_CS_Pin GPIO_PIN_15
+#define PA15_PS2_CS_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
